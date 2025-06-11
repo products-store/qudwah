@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUDWAH - T-shirt Oversize</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="QUDWAH Logo"> <span>QUDWAH</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="cart.html" class="cart-icon">
+                    <img src="images/cart-icon.png" alt="Cart"> <span class="cart-count">0</span>
+                </a>
+                <button class="hamburger-menu">
+    &#9776; </button>
+            </div>
+        </div>
+        <div class="mobile-nav-overlay">
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="product-page">
+        <div class="container product-details-wrapper">
+            <section class="product-images">
+                <div class="main-image-container">
+                    <img id="main-product-image" src="images/black-1.JPG" alt="T-shirt Oversize - Black">
+                </div>
+                <div class="thumbnail-images">
+                    <img class="thumbnail active" src="images/black-1.JPG" alt="Thumbnail 1">
+                    <img class="thumbnail" src="images/black-2.JPG" alt="Thumbnail 2">
+                    <img class="thumbnail" src="images/black-3.JPG" alt="Thumbnail 3">
+                </div>
+            </section>
+
+            <section class="product-info">
+                <h1 class="product-title">T-shirt Oversize</h1>
+                <p class="product-price">2900 د.ج</p>
+
+                <div class="color-options">
+                    <h2>الألوان المتوفرة:</h2>
+                    <div class="colors">
+                        <button class="color-btn active" data-color="black">أسود</button>
+                        <button class="color-btn" data-color="dark-gray">رمادي داكن</button>
+                        <button class="color-btn" data-color="light-gray">رمادي فاتح</button>
+                    </div>
+                </div>
+
+                <div class="size-options">
+                    <h2>المقاسات:</h2>
+                    <div class="sizes">
+                        <button class="size-btn active" data-size="S">S</button>
+                        <button class="size-btn" data-size="M">M</button>
+                        <button class="size-btn" data-size="L">L</button>
+                        <button class="size-btn" data-size="XL">XL</button>
+                        <button class="size-btn" data-size="XS" data-available-colors="black">XS</button>
+                    </div>
+                </div>
+
+                <div class="quantity-selector">
+                    <h2>الكمية:</h2>
+                    <div class="quantity-control">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" class="quantity-input" value="1" min="1">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="buy-now-btn">إتمام الشراء</button>
+                    <button class="add-to-cart-btn">أضف إلى السلة</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script> <script src="cart.js"></script> ```
+</body>
+</html>
