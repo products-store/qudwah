@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
             avatar_url: "https://i.imgur.com/your_store_logo.png", // Replace with your store logo/bot avatar URL
             embeds: [
                 {
-                    title: `✨ طلب جديد رقم ${order.id} ✨`,
+                    title: ` طلب جديد رقم ${order.id} `,
                     color: embedColor,
                     description: "تفاصيل طلبية جديدة من متجر QUDWAH.",
                     fields: [
