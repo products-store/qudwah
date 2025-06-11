@@ -351,8 +351,8 @@ document.addEventListener('DOMContentLoaded', () => {
             updateGlobalCartCount(); // Update header count to 0
 
             // Redirect to confirmation page (create this next)
-            alert('تم تأكيد طلبك بنجاح! سيتم إعادة توجيهك لصفحة التأكيد.');
-            window.location.href = 'confirmation.html';
+            alert('تم تأكيد طلبك بنجاح! سيتم إعادة توجيهك للصفحة الرئيسية.');
+            window.location.href = 'index.html';
         } else {
             // If webhook failed, alert was already shown by sendToDiscordWebhook
             // Do not clear cart or redirect, allow user to retry
