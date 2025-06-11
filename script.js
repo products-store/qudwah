@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             'light-gray': {
                 name: 'رمادي فاتح', // User-friendly name
-                main: 'images/white-1.JPG',
+                main: 'images/white-1.jpg',
                 thumbnails: [
-                    'images/white-1.JPG',
-                    'images/white-2.JPG',
-                    'images/white-3.JPG'
+                    'images/white-1.jpg',
+                    'images/white-2.jpg',
+                    'images/white-3.jpg'
                 ],
                 availableSizes: ['S', 'M', 'L', 'XL']
             }
