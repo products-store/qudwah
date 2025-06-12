@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Discord Webhook URL - IMPORTANT: In a real production app, this should be sent from a backend server, not directly from frontend.
-    const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1381594384361062401/3_aK8hImCgMpv6Vf6W6FDD-KuAdnrs67DuUzp9YJlW333AIRdjmtdwB4NhO6HX6Dj8zr';
+    const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1382492067334193173/F3Fc62fbQRRNYkXwF1jL_GksKrY76C_A8rzlvvVyRMdjP2KHjrDKjSmM3Xm4paf_Fzee';
 
     // Data for Algerian Wilayas (Provinces) and delivery prices
     const wilayaPrices = [
